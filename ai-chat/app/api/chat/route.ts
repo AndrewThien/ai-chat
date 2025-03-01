@@ -3,7 +3,7 @@ import { drinks, mainCourses, starters } from "@/lib/data";
 import { NextResponse } from "next/server";
 
 // Specify Edge runtime
-export const runtime = "edge";
+
 
 export async function POST(req: Request) {
   try {
